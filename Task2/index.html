@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/main.css">
+</head>
+
+<body>
+    <div class="box"></div>
+    <div class="box black"></div>
+    <img src="image/PikPng.com_feather-pen-png_1849474.png" alt="" srcset="" class="pen">
+    <div class="note">
+        <div class="page brl">
+            <h2 class="redText">Список завдань</h2>
+            <form action="" name="formPage" class="formPage" onclick="checkClick()">
+                <label for="check0">
+                    <input type="checkbox" name="" id="check0" class="pageCheckBox">HTM5
+                </label>
+                <label for="check1">
+                    <input type="checkbox" name="" id="check1" class="pageCheckBox">CSS3
+                </label>
+                <label for="check2">
+                    <input type="checkbox" name="" id="check2" class="pageCheckBox">SASS/SCSS
+                </label>
+                <label for="check3">
+                    <input type="checkbox" name="" id="check3" class="pageCheckBox">Bootstrap
+                </label>
+            </form>
+        </div>
+        <div class="page brr">
+            <h2 class="redText center">Додати нове завдання</h2>
+            <input type="text" name="" id="" class="inputTask">
+            <div class="shadowButton">
+                <button type="submit" class="buttonTask" onclick="addTask()">Додати</button>
+            </div>
+        </div>
+    </div>
+    <div class="alert">
+        <img src="image/close.svg" alt="" srcset="" class="icon" onclick="closeAletr()">
+        <p class="boldText">Попередження!</p>
+        <p></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
